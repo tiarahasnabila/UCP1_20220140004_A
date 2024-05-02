@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.greeting {
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 50px;
+    color: #333;
+    font-weight: bold; 
+    text-align: center; /* Posisi teks */
+    margin-top: 20px; /* Jarak antara teks dan elemen lain */
+}
+
+
+header, nav, main, footer {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Header styles */
+.left-header {
+    float: left;
+}
+
+.right-header {
+    float: right;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Carousel styles */
+.carousel {
+    display: flex;
+    overflow: hidden; /* Menghilangkan overflow */
+}
+
+.carousel-item {
+    flex: 0 0 auto; /* Tidak memperbesar item */
+    width: 100%; /* Lebar setiap item */
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Mengatur konten menjadi berada di tengah secara horizontal */
+    align-items: center; /* Mengatur konten menjadi berada di tengah secara vertikal */
+}
+
+.carousel-item img {
+    width: 70%; /* Lebar gambar */
+    transition: transform 1s ease; /* Animasi transisi */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparan hitam untuk latar belakang caption */
+    color: white; /* Warna teks caption */
+    padding: 10px; /* Ruang di sekitar teks caption */
+}
+
+/* Cards styles */
+.cards {
+    display: flex;
+}
+
+.card {
+    flex: 0 0 auto; /* Tidak memperbesar item */
+    margin: 0 10px; /* Jarak antar kartu */
+}
+
+.card img {
+    width: 100%; /* Lebar gambar */
+}
+
+.card-content {
+    padding: 10px; /* Ruang di sekitar konten card */
+}
+
+/* Footer styles */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
